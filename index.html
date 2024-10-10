@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificador de Animales</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clasificador de Animales</h1>
+        <form id="animalForm">
+            <label for="comportamiento">Comportamiento:</label>
+            <select id="comportamiento" name="comportamiento">
+                <option value="Juguetón">Juguetón</option>
+                <option value="Amistoso">Amistoso</option>
+                <option value="Calmado">Calmado</option>
+                <option value="Curioso">Curioso</option>
+                <option value="Activo">Activo</option>
+            </select>
+
+            <label for="entrenamiento">Entrenamiento:</label>
+            <select id="entrenamiento" name="entrenamiento">
+                <option value="difícil">Difícil</option>
+                <option value="fácil">Fácil</option>
+                <option value="moderado">Moderado</option>
+            </select>
+
+            <label for="ejercicio">Ejercicio:</label>
+            <select id="ejercicio" name="ejercicio">
+                <option value="Alto">Alto</option>
+                <option value="Bajo">Bajo</option>
+                <option value="Moderado">Moderado</option>
+            </select>
+
+            <label for="comunicacion">Comunicación:</label>
+            <select id="comunicacion" name="comunicacion">
+                <option value="Silencioso">Silencioso</option>
+                <option value="Vocal">Vocal</option>
+                <option value="Vocal y físico">Vocal y físico</option>
+            </select>
+
+            <label for="habilidades">Habilidades:</label>
+            <select id="habilidades" name="habilidades">
+                <option value="Inteligente y cazador">Inteligente y cazador</option>
+                <option value="Rescate y perro de terapia">Rescate y perro de terapia</option>
+            </select>
+
+            <label for="cuidado">Cuidado:</label>
+            <select id="cuidado" name="cuidado">
+                <option value="Alto">Alto</option>
+                <option value="Bajo">Bajo</option>
+                <option value="Moderado">Moderado</option>
+            </select>
+
+            <label for="tamano">Tamaño:</label>
+            <select id="tamano" name="tamano">
+                <option value="Grande">Grande</option>
+                <option value="Mediano">Mediano</option>
+                <option value="Pequeño">Pequeño</option>
+            </select>
+
+            <label for="cabeza">Cabeza:</label>
+            <select id="cabeza" name="cabeza">
+                <option value="difícil">Difícil</option>
+                <option value="fácil">Fácil</option>
+                <option value="moderado">Moderado</option>
+            </select>
+
+            <label for="vision">Visión:</label>
+            <select id="vision" name="vision">
+                <option value="Buena">Buena</option>
+                <option value="Excelente">Excelente</option>
+                <option value="Muy buena">Muy buena</option>
+            </select>
+
+            <label for="pelaje">Pelaje:</label>
+            <select id="pelaje" name="pelaje">
+                <option value="Corto y áspero">Corto y áspero</option>
+                <option value="Largo y sedoso">Largo y sedoso</option>
+            </select>
+
+            <label for="orejas">Orejas:</label>
+            <select id="orejas" name="orejas">
+                <option value="Caídas">Caídas</option>
+                <option value="Erguidas">Erguidas</option>
+            </select>
+
+            <label for="cola">Cola:</label>
+            <select id="cola" name="cola">
+                <option value="Corta">Corta</option>
+                <option value="Larga">Larga</option>
+            </select>
+
+            <label for="mandibula">Mandíbula:</label>
+            <select id="mandibula" name="mandibula">
+                <option value="Fuerte">Fuerte</option>
+                <option value="Pequeña">Pequeña</option>
+            </select>
+
+            <label for="movimiento">Movimiento:</label>
+            <select id="movimiento" name="movimiento">
+                <option value="Ágil y alegre">Ágil y alegre</option>
+                <option value="Lento">Lento</option>
+            </select>
+
+            <button type="button" id="classifyButton">Clasificar Animal</button>
+        </form>
+        <div id="result" src="index.js"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
